@@ -14,6 +14,9 @@ SELECT * FROM Customer c LIMIT 10;
 SELECT COUNT(*) FROM Customer c2;
 SELECT FirstName, Address FROM Customer c;
 
+-- Quantos clientes moram na Broadway?
+SELECT COUNT(*) FROM Customer c WHERE Address LIKE '%Broadway%';
+
 
 
 
