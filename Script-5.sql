@@ -44,3 +44,8 @@ SELECT c.CustomerId, c.FirstName, COUNT(*) AS Record FROM Invoice i
 	INNER JOIN Customer c ON c.CustomerId = i.CustomerId
 	GROUP BY 1 ORDER BY Record;
 
+SELECT i.InvoiceId, il.InvoiceId FROM Invoice i
+	INNER JOIN InvoiceLine il
+	INNER JOIN Customer c ON C.CustomerId = c.CustomerId
+	GROUP BY 1
+	LIMIT 100;
