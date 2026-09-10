@@ -31,7 +31,7 @@ SELECT c.FirstName, c.LastName FROM Customer c
 	WHERE Company IS NULL AND c.FirstName IN 
 		(SELECT e.FirstName FROM Employee e);
 
-SELECT c.FirstName FROM Customer c INNER JOIN Employee e WHERE c.FirstName = c.FirstName;
+SELECT c.FirstName FROM Customer c INNER JOIN Employee e WHERE c.FirstName = e.FirstName;
 
 SELECT * FROM Invoice i LIMIT 10;
 SELECT * FROM InvoiceLine il ORDER BY il.UnitPrice DESC LIMIT 10;
