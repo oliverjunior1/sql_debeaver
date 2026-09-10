@@ -1,0 +1,1 @@
+SELECT COUNT(*) FOR Customer c WHERE Address like '%Broadway%';
