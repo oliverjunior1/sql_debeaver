@@ -1,1 +1,2 @@
 SELECT * FROM Album a;
+SELECT COUNT(*) FROM Album a;
