@@ -16,6 +16,7 @@ SELECT FirstName, Address FROM Customer c;
 
 -- Quantos clientes moram na Broadway?
 SELECT COUNT(*) FROM Customer c WHERE Address LIKE '%Broadway%';
+SELECT State, COUNT(*) AS Total FROM Customer c GROUP BY 1 ORDER BY Total DESC LIMIT 10;
 
 
 
