@@ -33,5 +33,7 @@ SELECT c.FirstName, c.LastName FROM Customer c
 
 SELECT c.FirstName FROM Customer c INNER JOIN Employee e WHERE c.FirstName = c.FirstName;
 
+SELECT * FROM Invoice i LIMIT 10;
+
 
 
