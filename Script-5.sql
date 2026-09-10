@@ -34,6 +34,13 @@ SELECT c.FirstName, c.LastName FROM Customer c
 SELECT c.FirstName FROM Customer c INNER JOIN Employee e WHERE c.FirstName = c.FirstName;
 
 SELECT * FROM Invoice i LIMIT 10;
+SELECT * FROM InvoiceLine il ORDER BY il.UnitPrice DESC LIMIT 10;
 
+SELECT UnitPrice, COUNT(*) AS Record  FROM InvoiceLine il GROUP BY UnitPrice;
 
+-- Clientes que possuem Invoice associados e a quantidade para cada cliente.
+
+SELECT c.CustomerId, c.FirstName, COUNT(*) AS Record FROM Invoice i
+	INNER JOIN Customer c ON c.CustomerId = i.CustomerId
+	GROUP BY 1 ORDER BY Record;
 
