@@ -12,6 +12,9 @@ SELECT a2.ArtistId, a2.Name, COUNT(*) AS Records FROM Album a INNER JOIN Artist 
 
 SELECT * FROM Customer c LIMIT 10;
 SELECT COUNT(*) FROM Customer c2;
+SELECT FirstName, Address FROM Customer c;
+
+
 
 
 
