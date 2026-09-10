@@ -22,6 +22,14 @@ SELECT State, COUNT(*) AS Total FROM Customer c GROUP BY 1 ORDER BY Total DESC L
 SELECT * FROM Customer c;
 SELECT COUNT(*) FROM Customer c WHERE Company IS NOT NULL;
 
+SELECT FirstName FROM Customer c WHERE Company IS NULL;
+
+-- Quais dos clientes são colaboradores?
+SELECT * FROM Employee e;
+
+SELECT c.FirstName, c.LastName FROM Customer c 
+	WHERE Company IS NULL AND c.FirstName IN 
+		(SELECT e.FirstName FROM Employee e);
 
 
 
