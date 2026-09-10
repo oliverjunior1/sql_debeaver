@@ -1,1 +1,2 @@
-SELECT * FROM Employee e;
+SELECT * FROM Employee e; --Dno
+
