@@ -20,7 +20,7 @@ SELECT State, COUNT(*) AS Total FROM Customer c GROUP BY 1 ORDER BY Total DESC L
 
 -- verificar company dos clientes
 SELECT * FROM Customer c;
-
+SELECT COUNT(*) FROM Customer c WHERE Company IS NOT NULL;
 
 
 
