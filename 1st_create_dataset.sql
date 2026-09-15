@@ -72,3 +72,8 @@ WHERE cidade = "Goiânia";
 SELECT *
 FROM clientes
 WHERE salario > 4000;
+
+-- Clientes de Goiânia que ganham mais de 3.000
+SELECT *
+FROM clientes
+WHERE cidade = "Goiânia" AND "salário" > 3000;
