@@ -58,7 +58,17 @@ FROM clientes
 WHERE cidade = 'Goiânia'
 OR cidade = 'Brasília';
 
+-- Clientes maiores de 30 anos
 SELECT *
 FROM clientes
 WHERE idade > 30;
 
+-- Clientes de Goiânia
+SELECT *
+FROM clientes
+WHERE cidade = "Goiânia";
+
+-- Clientes com salário acima de 4.000
+SELECT *
+FROM clientes
+WHERE salario > 4000;
