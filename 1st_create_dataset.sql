@@ -85,3 +85,7 @@ ORDER BY salario ASC;
 -- Ordem decrescente
 SELECT * FROM clientes
 ORDER BY salario DESC;
+
+-- Ordenando por idade
+SELECT * FROM clientes
+ORDER BY idade DESC;
