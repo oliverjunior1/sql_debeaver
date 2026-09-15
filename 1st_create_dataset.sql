@@ -33,3 +33,6 @@ SELECT nome FROM clientes;
 SELECT nome, salario
 FROM clientes;
 
+SELECT nome, salario, idade
+FROM clientes;
+
