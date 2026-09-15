@@ -53,3 +53,8 @@ FROM clientes
 WHERE cidade = 'Goiânia'
 AND salario > 3000;
 
+SELECT *
+FROM clientes
+WHERE cidade = 'Goiânia'
+OR cidade = 'Brasília';
+
