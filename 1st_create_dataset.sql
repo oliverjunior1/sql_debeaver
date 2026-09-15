@@ -154,3 +154,8 @@ SELECT nome, preco FROM produtos;
 -- Encontrar produtos com preço superior a R$ 1.000.
 SELECT * FROM produtos WHERE preco > 1000;
 
+-- Encontrar produtos com estoque menor que 10.
+SELECT * FROM produtos
+WHERE estoque < 10;
+
+
