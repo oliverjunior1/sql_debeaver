@@ -44,3 +44,7 @@ SELECT *
 FROM clientes
 WHERE idade > 30;
 
+SELECT *
+FROM clientes
+WHERE salario > 4000;
+
