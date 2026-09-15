@@ -58,3 +58,7 @@ FROM clientes
 WHERE cidade = 'Goiânia'
 OR cidade = 'Brasília';
 
+SELECT *
+FROM clientes
+WHERE idade > 30;
+
