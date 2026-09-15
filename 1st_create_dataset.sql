@@ -116,6 +116,8 @@ SELECT * FROM clientes WHERE salario > 5000;
 
 -- Como ordenar os clientes do maior para o menor salário?
 SELECT * FROM clientes
-ORDER BY salario DESC
-LIMIT 1;
+ORDER BY salario DESC;
+-- LIMIT 1;
+
+
 
