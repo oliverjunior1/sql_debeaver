@@ -110,3 +110,6 @@ SELECT * FROM clientes;
 
 -- Como selecionar somente nome e salário?
 SELECT nome, salario FROM clientes;
+
+-- Como encontrar clientes com salário acima de R$ 5.000?
+SELECT * FROM clientes WHERE salario > 5000; 
