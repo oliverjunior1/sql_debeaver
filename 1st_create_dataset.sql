@@ -107,3 +107,6 @@ WHERE id = 5;
 
 -- Como mostrar todos os registros da tabela clientes?
 SELECT * FROM clientes;
+
+-- Como selecionar somente nome e salário?
+SELECT nome, salario FROM clientes;
