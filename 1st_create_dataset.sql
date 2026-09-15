@@ -127,4 +127,29 @@ WHERE id = 2;
 SELECT * FROM clientes;
 
 -- Exercicio:
+CREATE TABLE produtos (
+    id INTEGER PRIMARY KEY,
+    nome TEXT,
+    categoria TEXT,
+    preco REAL,
+    estoque INTEGER
+);
+
+INSERT INTO produtos
+(id, nome, categoria, preco, estoque)
+VALUES
+(1, 'Notebook', 'Eletrico', 5000, 25),
+(2, 'Mouse', 'Eletrico', 25, 40),
+(3, 'Teclado', 'Eletrico', 30, 30),
+(4, 'Monitor', 'Eletrico', 700, 12),
+(5, 'Impressora', 'Eletrico', 350,10),
+(6, 'Headset', 'Eletrico', 100,40);
+
+-- Mostrar todos os produtos.
+SELECT * FROM produtos;
+
+-- Mostrar somente nome e preço:
+SELECT nome, preco FROM produtos;
+
+-- Encontrar produtos com preço superior a R$ 1.000.
 
