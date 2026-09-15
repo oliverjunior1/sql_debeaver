@@ -164,4 +164,8 @@ SELECT * FROM produtos ORDER BY preco DESC;
 -- Mostrar os três produtos mais caros.
 SELECT * FROM produtos ORDER BY preco DESC LIMIT 3;
 
+-- Alterar o preço de um produto.
+UPDATE produtos SET preco=650 WHERE id=2;
+SELECT * FROM produtos;
+
 
