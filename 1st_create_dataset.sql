@@ -40,3 +40,7 @@ SELECT *
 FROM clientes
 WHERE cidade = "Goiânia";
 
+SELECT *
+FROM clientes
+WHERE idade > 30;
+
