@@ -98,3 +98,5 @@ UPDATE clientes
 SET salario = 4000
 WHERE id = 1;
 
+DELETE FROM clientes
+WHERE id = 5;
