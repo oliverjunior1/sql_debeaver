@@ -36,3 +36,7 @@ FROM clientes;
 SELECT nome, salario, idade
 FROM clientes;
 
+SELECT *
+FROM clientes
+WHERE cidade = "Goiânia";
+
