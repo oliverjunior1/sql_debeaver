@@ -89,3 +89,7 @@ ORDER BY salario DESC;
 -- Ordenando por idade
 SELECT * FROM clientes
 ORDER BY idade DESC;
+
+-- e queremos somente os 3 maiores salários.
+SELECT * FROM clientes
+ORDER BY salario DESC LIMIT 3;
