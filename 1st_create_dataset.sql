@@ -93,3 +93,8 @@ ORDER BY idade DESC;
 -- e queremos somente os 3 maiores salários.
 SELECT * FROM clientes
 ORDER BY salario DESC LIMIT 3;
+
+UPDATE clientes
+SET salario = 4000
+WHERE id = 1;
+
