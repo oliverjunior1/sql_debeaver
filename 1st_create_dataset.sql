@@ -168,4 +168,6 @@ SELECT * FROM produtos ORDER BY preco DESC LIMIT 3;
 UPDATE produtos SET preco=650 WHERE id=2;
 SELECT * FROM produtos;
 
-
+-- Excluir um produto.
+DELETE FROM produtos WHERE id = 4;
+SELECT * FROM produtos;
