@@ -158,4 +158,7 @@ SELECT * FROM produtos WHERE preco > 1000;
 SELECT * FROM produtos
 WHERE estoque < 10;
 
+-- Ordenar produtos do mais caro para o mais barato.
+SELECT * FROM produtos ORDER BY preco DESC;
+
 
