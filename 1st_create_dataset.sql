@@ -119,5 +119,12 @@ SELECT * FROM clientes
 ORDER BY salario DESC;
 -- LIMIT 1;
 
+-- Como alterar o salário do cliente cujo id é 2 para R$ 5.000?
+UPDATE clientes
+SET salario = 5000
+WHERE id = 2;
 
+SELECT * FROM clientes;
+
+-- Exercicio:
 
