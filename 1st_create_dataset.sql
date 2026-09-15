@@ -77,3 +77,7 @@ WHERE salario > 4000;
 SELECT *
 FROM clientes
 WHERE cidade = "Goiânia" AND "salário" > 3000;
+
+-- clientes do menor para o maior salário.
+SELECT * FROM clientes
+ORDER BY salario ASC;
