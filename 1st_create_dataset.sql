@@ -105,4 +105,5 @@ SELECT *
 FROM clientes
 WHERE id = 5;
 
-
+-- Como mostrar todos os registros da tabela clientes?
+SELECT * FROM clientes;
