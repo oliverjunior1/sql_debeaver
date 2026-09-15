@@ -100,3 +100,9 @@ WHERE id = 1;
 
 DELETE FROM clientes
 WHERE id = 5;
+
+SELECT *
+FROM clientes
+WHERE id = 5;
+
+
