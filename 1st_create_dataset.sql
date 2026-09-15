@@ -161,4 +161,7 @@ WHERE estoque < 10;
 -- Ordenar produtos do mais caro para o mais barato.
 SELECT * FROM produtos ORDER BY preco DESC;
 
+-- Mostrar os três produtos mais caros.
+SELECT * FROM produtos ORDER BY preco DESC LIMIT 3;
+
 
