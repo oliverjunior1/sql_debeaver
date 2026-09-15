@@ -113,3 +113,9 @@ SELECT nome, salario FROM clientes;
 
 -- Como encontrar clientes com salário acima de R$ 5.000?
 SELECT * FROM clientes WHERE salario > 5000; 
+
+-- Como ordenar os clientes do maior para o menor salário?
+SELECT * FROM clientes
+ORDER BY salario DESC
+LIMIT 1;
+
